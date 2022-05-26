@@ -16,8 +16,8 @@
                }
                updateClock();
                function updateDate() {
-              var days = ['dimanche','lundi','mardi','mercredi','jeudi.','vendredi','samedi'];
-              var months=['janvier', 'février', 'mars', 'avril', 'mai','juin', 'juillet', 'août','septembre','octobre', 'novembre','décembre'];
+              var days = ['sunday','monday','tuesday','wednesday','thursday.','friday','saturday'];
+              var months=['january', 'february', 'march', 'april', 'may','june', 'july', 'august','september','october', 'november','décember'];
               var m = new Date();
               var dateString = (days[ m.getDay() ])  + " " +  ("0" + m.getDate()).slice(-2) + " " + (months[ m.getMonth() ])   + " " + m.getFullYear()               
                         document.getElementById('date').innerHTML = dateString;
@@ -71,7 +71,7 @@
                                                 <li>proton</li>
                                         </a>
                                         <a href="https://manga4life.com/">
-                                                <li>mangalife/li>
+                                                <li>mangalife</li>
                                         </a>
                                 </ul>
                         </div>
