@@ -16,13 +16,8 @@
                }
                updateClock();
                function updateDate() {
-<<<<<<< Updated upstream
               var days = ['sunday','monday','tuesday','wednesday','thursday.','friday','saturday'];
               var months=['january', 'february', 'march', 'april', 'may','june', 'july', 'august','september','october', 'november','décember'];
-=======
-              var days = ['sunday','monday','tuesday','wenesday','thursday.','friday','saturday'];
-              var months=['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december'];
->>>>>>> Stashed changes
               var m = new Date();
               var dateString = (days[ m.getDay() ])  + " " +  ("0" + m.getDate()).slice(-2) + " " + (months[ m.getMonth() ])   + " " + m.getFullYear()               
                         document.getElementById('date').innerHTML = dateString;
